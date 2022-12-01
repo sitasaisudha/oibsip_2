@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,500;1,600&display=swap');
+
+
+
+.intro{
+    height: 45rem;
+   
+    background: url(images/me.jpeg) no-repeat;
+    width: 100%;
+}
+.intro nav{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.intro nav a button{
+    height: 3rem;
+    width: 8rem;
+    color: black;
+    font-weight: bold;
+    font-family: 'Poppins';
+
+}
+nav{
+    position:fixed;
+    opacity: 0.8;
+}
+.intro nav a button:hover{
+    background-color: rgb(0, 157, 255);
+    color: #fff;
+    box-shadow: 1px 1px 1px 1px;
+}
+.name{
+    position: absolute;
+    top: 20rem;
+    left: 60rem;
+    color: #fff;
+    font-weight: bolder;
+    font-family: 'Poppins';
+}
+.Aboutme h3{
+    color: #fff;
+    font-weight: bold;
+    
+}
+.Aboutme img{
+    height: 30rem;
+    width: 30rem;
+}
+.Aboutme .abt{
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+}
+.Aboutme .abt h3{
+    font-weight: bold;
+}
+.Aboutme .abt h3,p{
+    position: relative;
+    top: 8rem;
+    color: #fff;
+    font-family: 'Poppins';
+}
+.table img{
+    height: 15rem;
+    width: 15rem;
+}
+.projects h3{
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Poppins';
+}
+h3{
+    color: #fff;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+li{
+    font-family: 'Poppins';
+    
+}
+.card:hover{
+    background-color: rgb(0, 157, 255);
+    color: #fff;
+}
+.card .card-body .card-title{
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+.Skills h3{
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+.contact h3{
+    font-weight: bold;
+    font-family: 'Poppins';
+}
